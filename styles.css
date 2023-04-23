@@ -84,7 +84,7 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
-  gap: 4rem;
+  gap: 2rem;
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -100,7 +100,7 @@ a {
 }
 
 .hero-img {
-  transform: translateY(-2rem) scale(1.5);
+  transform: translateY(2rem) scale(1.2);
   z-index: -1;
 }
 
