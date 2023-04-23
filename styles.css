@@ -100,7 +100,7 @@ a {
 }
 
 .hero-img {
-  transform: translateY(2rem) scale(1.2);
+  transform: translateY(-2rem);
   z-index: -1;
 }
 
