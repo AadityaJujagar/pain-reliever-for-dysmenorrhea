@@ -92,15 +92,20 @@ a {
   padding-right: 1.25rem;
 }
 
+img {
+  border-radius: 30px;
+}
+
 .hero-heading {
   font-weight: 600;
   font-size: 60px;
   line-height: 80px;
   text-align: center;
+  transform: translateY(20px);
 }
 
 .hero-img {
-  transform: translateY(-2rem);
+  transform: translateY(2rem) scale(1.0859);
   z-index: -1;
 }
 
