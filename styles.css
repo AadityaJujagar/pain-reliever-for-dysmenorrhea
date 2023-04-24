@@ -162,7 +162,6 @@ a {
 .img-sec1 {
   color: #595050;
   background-color: #f6f6f6;
-  max-width: 1200px;
 }
 
 .img-sec2 {
@@ -323,9 +322,8 @@ footer {
 }
 
 .hidden-lines {
-  /* display: none; */
-  margin-left: 20rem;
-  margin-top: 8rem;
+  display: none;
+  margin-left: 13rem;
   width: 15rem;
   height: 0.25rem;
   background-color: #7684c9;
@@ -335,29 +333,25 @@ footer {
 @media only screen and (max-width: 676px) {
   * {
     max-width: 676px;
+    overflow-x: hidden;
   }
   .hero-img,
   .img-div1,
   .img-div2 {
     display: none;
   }
-  .hero {
-    padding: 0 0 0 10rem;
-  }
   .navbar {
     display: flex;
     flex-direction: column;
-    padding: 5rem 0 0 5rem;
-    gap: 2rem;
+    padding: 5rem 3rem 5rem 0;
   }
   .logo_section {
-    transform: scale(3);
-    padding-left: 2rem;
+    transform: scale(2);
   }
   .nav_items {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0 0 8rem;
+    padding: 4rem 0 0 0;
     text-align: center;
   }
   .nav_items div {
@@ -366,7 +360,6 @@ footer {
   .cards {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0 4rem 15rem;
   }
   .link_wrapper {
     display: none;
@@ -376,23 +369,11 @@ footer {
     font-size: 60px;
     line-height: 80px;
     text-align: center;
-    padding-top: 3rem;
-    padding-left: 5rem;
-    padding-right: -50rem;
-  }
-  .img-sec-container {
-    padding-left: 15rem;
-    background-color: #fff;
-  }
-  .cards-header {
-    padding: 4rem 0 5rem 8rem;
-  }
-  footer {
-    padding: 4rem 0 5rem 15rem;
-    background-color: #fff;
+    padding-bottom: 5rem;
   }
   .footer-icons {
     gap: 3rem;
+    padding-left: 2rem;
   }
   .hidden-lines {
     display: block;
