@@ -175,7 +175,7 @@ a {
 }
 
 .cards {
-  padding: 6rem;
+  padding: 2rem 6rem 6rem 6rem;
   display: flex;
   gap: 60px;
   margin: 0 auto;
@@ -187,7 +187,7 @@ a {
 .cards-header {
   text-align: center;
   width: 100%;
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0 0 0;
   color: #595050;
 }
 
@@ -323,16 +323,16 @@ footer {
 
 .hidden-lines {
   display: none;
-  margin-left: 13rem;
+  margin-left: 6rem;
   width: 15rem;
   height: 0.25rem;
   background-color: #7684c9;
   z-index: 10;
 }
 
-@media only screen and (max-width: 676px) {
+@media only screen and (max-width: 420px) {
   * {
-    max-width: 676px;
+    max-width: 420px;
     overflow-x: hidden;
   }
   .hero-img,
@@ -343,19 +343,19 @@ footer {
   .navbar {
     display: flex;
     flex-direction: column;
-    padding: 5rem 3rem 5rem 0;
+    padding: 2rem 1rem 2rem 0;
   }
   .logo_section {
-    transform: scale(2);
+    transform: scale(1.5);
   }
   .nav_items {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0 0 0;
+    padding: 2rem 0 2rem 1rem;
     text-align: center;
   }
   .nav_items div {
-    font-size: 30px;
+    font-size: 20px;
   }
   .cards {
     display: flex;
@@ -366,16 +366,40 @@ footer {
   }
   .hero-heading {
     font-weight: 600;
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 60px;
     text-align: center;
     padding-bottom: 5rem;
   }
   .footer-icons {
-    gap: 3rem;
-    padding-left: 2rem;
+    gap: 1rem;
   }
   .hidden-lines {
     display: block;
+  }
+  .img-head-text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .cards-header-text {
+    font-size: 50px;
+  }
+  .card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .cards figcaption h2 {
+    font-size: 20px;
+  }
+  .cards figcaption p {
+    display: none;
+  }
+  .cards {
+    padding: 4rem 6rem 6rem 6rem;
   }
 }
