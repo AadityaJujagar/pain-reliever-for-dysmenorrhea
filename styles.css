@@ -153,6 +153,7 @@ a {
   font-size: 50px;
   line-height: 80px;
   margin-top: 1.25rem;
+  text-align: center;
 }
 
 .img-head-para {
@@ -348,8 +349,8 @@ footer {
 
 .meth-line1 {
   margin: 0 auto;
-  width: 80%;
-  margin-top: 4rem;
+  width: 84%;
+  margin-top: 8rem;
   height: 0.25rem;
   background-color: #7684c9;
   z-index: 10;
@@ -357,22 +358,28 @@ footer {
 
 .meth-line2 {
   margin: 0 auto;
-  width: 74%;
+  width: 80%;
   height: 0.25rem;
   background-color: #7684c9;
   z-index: 10;
 }
 
-.yoga-header {
+.methods-header {
   text-align: center;
   width: 100%;
   padding: 3rem 0 3rem 0;
+  gap: 30rem;
   color: #595050;
 }
 
-.yoga-header-text {
+.methods-header-text {
   text-align: center;
   font-size: 3.6rem;
+}
+
+.methods-header-para {
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 @media only screen and (max-width: 676px) {
