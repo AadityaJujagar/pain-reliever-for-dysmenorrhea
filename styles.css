@@ -329,12 +329,50 @@ footer {
 }
 
 .hidden-lines {
+  padding-bottom: 3rem;
   display: none;
   margin-left: 6rem;
   width: 15rem;
   height: 0.25rem;
   background-color: #7684c9;
   z-index: 10;
+}
+
+#meth-sec1 {
+  background-color: #fff;
+}
+
+#meth-sec2 {
+  background: #f6f6f6;
+}
+
+.meth-line1 {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 4rem;
+  height: 0.25rem;
+  background-color: #7684c9;
+  z-index: 10;
+}
+
+.meth-line2 {
+  margin: 0 auto;
+  width: 74%;
+  height: 0.25rem;
+  background-color: #7684c9;
+  z-index: 10;
+}
+
+.yoga-header {
+  text-align: center;
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+  color: #595050;
+}
+
+.yoga-header-text {
+  text-align: center;
+  font-size: 3.6rem;
 }
 
 @media only screen and (max-width: 676px) {
